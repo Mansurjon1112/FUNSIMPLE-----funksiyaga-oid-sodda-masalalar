@@ -191,3 +191,28 @@ for i in range(5):
     if IsPrime(a):
         sanoq+=1
 print(f'Kiritilgan sonlarning {sanoq} tasi tub')
+
+#Gulbahor Raxmonova, [15.07.21 22:44]
+#29
+def DigitCount(K):
+    s=len(str(K))
+    return(s)
+print(DigitCount(123))
+print(DigitCount(25))
+print(DigitCount(100))
+print(DigitCount(1289))
+print(DigitCount(123978))
+
+
+#Gulbahor Raxmonova, [15.07.21 22:53]
+# 30
+def DigitN(K, N):
+    if len(str(K)) < N:
+        return -1
+    else:
+        return str(K)[N-1]
+print(DigitN(458, 2))
+print(DigitN(5247, 4))
+print(DigitN(12589, 1))
+
+
